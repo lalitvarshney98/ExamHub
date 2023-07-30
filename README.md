@@ -1,26 +1,17 @@
 # ExamHub
-exam portal  using  springboot angular
+online exam portal using SpringBoot Angular
 
 <a href="https://www.agarwalvaibhav.com">Vaibhav Agarwal</a>
 
 
-EXAM DOJO
 
-Portal for Examinations
+Portal for Online Examinations
 
 ![](Aspose.Words.96c9ccab-5ba4-4a7f-8856-f6f612851f78.003.png)
 
 
 # Contents
--  About the Software	
--  Software Design	
--  Software Optimizations	
--  Software Diagrams	
--  Flow of Control	
--  Entity Relationship Diagram	
--  Database Design	
--  Relationships Among Table within Database	
--  Demonstration Images of the Software
+-  About the Website	
 -  Admin Profile	
 -  Registration Page	
 -  Login Page	
@@ -43,14 +34,14 @@ Portal for Examinations
 
 
 
-# About the Software
+# About the Website
 
-Exam Dojo is a software that provides professors a user-friendly platform to host quizzes for all of their courses while ensuring that these quizzes are answered by students in an ethical manner.
+ExamHub is a online portal that provide examiner a user-friendly platform to host quizzes for all of their courses wise and ensure that these quizzes are attempted by examinee or not. After finish the exam examiner and examinee both check performance result also.
 
-There are 2 types of profiles that are available in Exam Dojo
+There are 2 types of profile available in ExamHub
 
-- Admin – to be used by the Professor
-- Student
+- Admin – who manage online exam for examinee
+- Examinee - who appear in exam
 
 Users working on the Admin Profile have the following functionalities available to them:
 
@@ -62,124 +53,50 @@ Users working on the Admin Profile have the following functionalities available 
 - Delete Quizzes
 - Enable Tab Switch Prevention
 - Create Questions
-- View Student-Wise Test Results
+- View Performance Results
 
-Users working on the Student Profile have the following functionalities available to them:
+Users working on the Examinee Profile have the following functionalities available to them:
 
 - Attempt Quizzes
 - Review Quizzes
-# Software Design
+- 
+# Software Used
 
 This software was developed using
 
 - Angular – Frontend
 - SpringBoot – Backend
-- MySQL – Database Management
+- MySQL – Database
+  
 ## Software Optimizations
 - Authentication is quick and secure with JWT Authentication
 - Use of Single Webpages ensures faster load times
-- Use of a widely-used open-source editor results in the ability for the professor to add questions of various media types, enhancing the breadth of usability of the software and ensuring wider inclusivity
-- Usage of automatic submission benefits both profiles of users as work is always saved
-![](Aspose.Words.96c9ccab-5ba4-4a7f-8856-f6f612851f78.004.png)
-
-# Software Diagrams
-
-## Flow of Control
-
-![](Aspose.Words.96c9ccab-5ba4-4a7f-8856-f6f612851f78.005.png)
-
-## Entity Relationship Diagram
-
-![](Aspose.Words.96c9ccab-5ba4-4a7f-8856-f6f612851f78.006.png)
-# Database Design
-
-Tables in Database
-
-![](Aspose.Words.96c9ccab-5ba4-4a7f-8856-f6f612851f78.007.png)
-
-Table - User
-
-![](Aspose.Words.96c9ccab-5ba4-4a7f-8856-f6f612851f78.008.png)
-
-Table - Role
-
-![](Aspose.Words.96c9ccab-5ba4-4a7f-8856-f6f612851f78.009.png)
-
-Table - User\_Role
-
-![](Aspose.Words.96c9ccab-5ba4-4a7f-8856-f6f612851f78.010.png)
-
-Table - Category
-
-![](Aspose.Words.96c9ccab-5ba4-4a7f-8856-f6f612851f78.011.png)
-
-Table - Quiz
-
-![](Aspose.Words.96c9ccab-5ba4-4a7f-8856-f6f612851f78.012.png)
 
 
 
-Table - Question
 
-![](Aspose.Words.96c9ccab-5ba4-4a7f-8856-f6f612851f78.013.png)
-
-Table - Result
-
-![](Aspose.Words.96c9ccab-5ba4-4a7f-8856-f6f612851f78.014.png)
-
-
-## Relationships Among Table within Database
-
-![](Aspose.Words.96c9ccab-5ba4-4a7f-8856-f6f612851f78.015.png)
-
-# Demonstration Images of the Software
+# Demonstration Images of the ExamHub Website
 
 ## Admin Profile
 
-### Registration Page
-- Users: All who are not registered with Exam Dojo
-- Users are required to enter a valid:
-  - Username
-  - Password
-  - First Name
-  - Last Name
-  - Email
-  - Phone Number
-- All entries are validated and appropriate errors will be given
-- Accounts are authenticated using JWT Authentication![](Aspose.Words.96c9ccab-5ba4-4a7f-8856-f6f612851f78.016.png)
+## Login with admin credential
 
 
-### Login Page
-- Users: All who are registered with Exam Dojo
-- Users are required to enter a valid:
-  - Username
-  - Password
-  - First Name
-  - Last Name
-  - Email
-  - Phone Number
-- All entries are validated and appropriate errors will be given
-- Accounts are authenticated using JWT Authentication
-
-![](Aspose.Words.96c9ccab-5ba4-4a7f-8856-f6f612851f78.017.png)
 
 
 ### Welcome Page of Admin-Side
-- Users: Professors or anyone who has logged in with an Admin Profile
+
 
 ![](welcome.jpeg)
 
 
 ### Viewing Your Profile Details
-- Users: Professors or anyone who has logged in with an Admin Profile
-- How to Get Here: Click on the ‘*Profile*’ button from the menu on the left
+
 
 ![](Aspose.Words.96c9ccab-5ba4-4a7f-8856-f6f612851f78.018.png)
 
 
 ### Adding a Subject
-- Users: Professors or anyone who has logged in with an Admin Profile
-- How to Get Here: 
   - Click on the ‘*Add Subject*’ button from the menu on the left
   - Click on ‘*Add New Subject*’ below the created subjects within the ‘*Subjects*’ sub-menu
 - What you have to enter:
@@ -192,16 +109,14 @@ Table - Result
 
 
 ### Viewing Created Subjects
-- Users: Professors or anyone who has logged in with an Admin Profile
-- How to Get Here: Click on the ‘*Subjects*’ button from the menu on the left
+- Click on the ‘*Subjects*’ button from the menu on the left
 
 
 ![](Aspose.Words.96c9ccab-5ba4-4a7f-8856-f6f612851f78.021.png)
 
 
 ### Deleting a Created Subject
-- Users: Professors or anyone who has logged in with an Admin Profile
-- How to Get Here: Click on the ‘*Delete*’ button marked in red present on the right of the subject name
+- Click on the ‘*Delete*’ button marked in red present on the right of the subject name
 
 
 ![](delete.jpeg)
@@ -210,8 +125,7 @@ Table - Result
 
 
 ### Adding a Quiz
-- Users: Professors or anyone who has logged in with an Admin Profile
-- How to Get Here: Click on the ‘*Add Quiz*’ button from the menu on the left
+- Click on the ‘*Add Quiz*’ button from the menu on the left
 - What you have to enter:
   - Name of the Quiz
   - Description of the Quiz
@@ -226,7 +140,7 @@ Table - Result
 
 
 ### Adding Questions to a Quiz
-- Users: Professors or anyone who has logged in with an Admin Profile
+- Admin login with same login page with own credential
 - How to Get Here: Click on the ‘Questions’ button from the row of buttons below the name of a created quiz within the Quizzes Page
 - How to Create Your First Question:
   - After clicking on the ‘Questions’ button, click on ‘Add Question’ Button
@@ -251,46 +165,61 @@ Table - Result
 ##
 
 ### Viewing Created Quizzes
-- Users: Professors or anyone who has logged in with an Admin Profile
-- How to Get Here: Click on the ‘*Quizzes*’ button from the menu on the left
+- Click on the ‘*Quizzes*’ button from the menu on the left
 
 ![](viewcreate.jpeg)
 
 
 ### Updating Quiz Information
-- Users: Professors or anyone who has logged in with an Admin Profile
-- How to Get Here: Click on the ‘*Update*’ button from the row of buttons below the name of a created quiz within the Quizzes Page
+- Click on the ‘*Update*’ button from the row of buttons below the name of a created quiz within the Quizzes Page
 
 ![](Aspose.Words.96c9ccab-5ba4-4a7f-8856-f6f612851f78.024.png)![](upda.jpeg)
 
 
-### Viewing the Result for a Quiz as a Professor
-- Users: Professors or anyone who has logged in with an Admin Profile
-- How to Get Here: From the “Quizzes” page, click on the “*View Result*” button below the name of the quiz you would like to see the results
+### Viewing the Result for a Quiz
+- From the “Quizzes” page, click on the “*View Result*” button below the name of the quiz you would like to see the results
 - The results will be shown student-wise in a tabular manner
 
 ![](respro.jpeg)
 
 
-## Student Profile
+## Examinee Profile
+
+### Registration Page
+- Users: All who are not registered with ExamHub
+- Users are required to enter a valid:
+  - Username
+  - Password
+  - First Name
+  - Last Name
+  - Email
+  - Phone Number
+- All entries are validated and appropriate errors will be given
+- Accounts are authenticated using JWT Authentication![](Aspose.Words.96c9ccab-5ba4-4a7f-8856-f6f612851f78.016.png)
+
+
+### Login Page
+- Users: All who are registered with ExamHub
+- Users are required to enter a valid:
+  - Username
+  - Password
+- All entries are validated and appropriate errors will be given
+- Accounts are authenticated using JWT Authentication
 
 ### View All Quizzes
-- Users: Students
-- How to Get Here: Click on the ‘*All Quizzes*’ button from the menu on the left
+- Click on the ‘*All Quizzes*’ button from the menu on the left
 
 ![](vall.jpeg)
 
 
 ### View Quizzes of a Particular Subject
-- Users: Students
-- How to Get Here: Click on the subject name button from the menu on the left. For example, if you would like to view the quizzes available in the subject, “*MAT\_3003 complex*”, click on the button, “*MAT\_3003 complex*”
+- Click on the subject name button from the menu on the left. For example, if you would like to view the quizzes available in the subject, “*MAT\_3003 complex*”, click on the button, “*MAT\_3003 complex*”
 
 ![](Aspose.Words.96c9ccab-5ba4-4a7f-8856-f6f612851f78.025.png)
 
 
 ### Starting a Quiz
-- Users: Students
-- How to Get Here: Click on the “*Start*” button below the quiz name
+- Click on the “*Start*” button below the quiz name
 - Instructions for attempting the quiz will be shown on starting the quiz
 - To start answering questions, click on the “*Start Quiz*” button from the instructions page
 
@@ -311,7 +240,7 @@ Table - Result
 
 ![](s3.jpeg)
 
-### Viewing the Result for a Quiz
+### Viewing the Performance Result for a Quiz
 - Users: Students
 - How to Get Here: From the “Available Quizzes” page, click on the “*See Results*” button below the name of the quiz you would like to see the results for
 
