@@ -1,14 +1,5 @@
 # ExamHub
-online exam portal using SpringBoot Angular
-
-<a href="https://www.agarwalvaibhav.com">Vaibhav Agarwal</a>
-
-
-
-Portal for Online Examinations
-
-![](Aspose.Words.96c9ccab-5ba4-4a7f-8856-f6f612851f78.003.png)
-
+Online exam portal using SpringBoot Angular
 
 # Contents
 -  About the Website	
