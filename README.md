@@ -11,7 +11,7 @@ Online exam portal using SpringBoot Angular
 -  Adding a Subject	
 -  Viewing Created Subjects	
 -  Deleting a Created Subject	
--  Adding a Quiz	17
+-  Adding a Quiz
 -  Adding Questions to a Quiz	
 -  Viewing Created Quizzes	
 -  Updating Quiz Information	
@@ -36,9 +36,9 @@ There are 2 types of profile available in ExamHub
 
 Users working on the Admin Profile have the following functionalities available to them:
 
-- Create Courses
-- Modify Courses
-- Delete Courses
+- Create Courses Categories
+- Modify Courses Categories
+- Delete Courses Categories
 - Create Quizzes
 - Modify Quizzes
 - Delete Quizzes
@@ -72,14 +72,11 @@ This software was developed using
 
 ## Login with admin credential
 
-
-
+![examinee login](https://github.com/lalitvarshney98/ExamHub/assets/70005334/db34791c-6652-4f58-beb9-73d2f83eb296)
 
 ### Welcome Page of Admin-Side
 
-
-![](welcome.jpeg)
-
+![home](https://github.com/lalitvarshney98/ExamHub/assets/70005334/2618fce4-b609-4d7f-9e66-9c05c811d857)
 
 ### Viewing Your Profile Details
 
