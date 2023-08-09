@@ -23,8 +23,6 @@ Online exam portal using SpringBoot Angular
 -  Viewing the Result for a Quiz	
 
 
-
-
 # About the Website
 
 ExamHub is a online portal that provide examiner a user-friendly platform to host quizzes for all of their courses wise and ensure that these quizzes are attempted by examinee or not. After finish the exam examiner and examinee both check performance result also.
@@ -64,8 +62,6 @@ This software was developed using
 - Use of Single Webpages ensures faster load times
 
 
-
-
 # Demonstration Images of the ExamHub Website
 
 ## Admin Profile
@@ -74,42 +70,26 @@ This software was developed using
 
 ![examinee login](https://github.com/lalitvarshney98/ExamHub/assets/70005334/db34791c-6652-4f58-beb9-73d2f83eb296)
 
+
 ### Welcome Page of Admin-Side
 
 ![home](https://github.com/lalitvarshney98/ExamHub/assets/70005334/2618fce4-b609-4d7f-9e66-9c05c811d857)
 
 ### Viewing Your Profile Details
 
+![prof](https://github.com/lalitvarshney98/ExamHub/assets/70005334/769efdfe-4239-457b-b189-b7fe3b4dabf5)
 
-![](Aspose.Words.96c9ccab-5ba4-4a7f-8856-f6f612851f78.018.png)
 
-
-### Adding a Subject
-  - Click on the ‘*Add Subject*’ button from the menu on the left
-  - Click on ‘*Add New Subject*’ below the created subjects within the ‘*Subjects*’ sub-menu
+### Adding Multiple Eaxm Categories
+  - Click on the ‘*Add Category*’ button from the menu on the left
+  - Click on ‘*Add New Category*’ below the created subjects within the ‘*Category*’ sub-menu
 - What you have to enter:
-  - Name of the subject
-  - Description of the subject
+  - Name of the exam category
+  - Description of the Exam
 
-![](Aspose.Words.96c9ccab-5ba4-4a7f-8856-f6f612851f78.019.png)
+![add category](https://github.com/lalitvarshney98/ExamHub/assets/70005334/2253a6f6-24f9-41fb-8170-9472802be3b4)
 
-![](Aspose.Words.96c9ccab-5ba4-4a7f-8856-f6f612851f78.020.png)
-
-
-### Viewing Created Subjects
-- Click on the ‘*Subjects*’ button from the menu on the left
-
-
-![](Aspose.Words.96c9ccab-5ba4-4a7f-8856-f6f612851f78.021.png)
-
-
-### Deleting a Created Subject
-- Click on the ‘*Delete*’ button marked in red present on the right of the subject name
-
-
-![](delete.jpeg)
-
-![](Aspose.Words.96c9ccab-5ba4-4a7f-8856-f6f612851f78.023.png)
+![added cate](https://github.com/lalitvarshney98/ExamHub/assets/70005334/5ab003af-d872-4a52-a525-1b71789ddf77)
 
 
 ### Adding a Quiz
@@ -122,9 +102,11 @@ This software was developed using
   - Subject that the quiz is part of
   - ‘Publish Status’ toggle will control whether the student is able to view the quiz on their profile
 
-![](add1.jpeg)
-![](add2.jpeg)
-![](add3.jpeg)
+![add quiz](https://github.com/lalitvarshney98/ExamHub/assets/70005334/f0ff47ee-9c29-46f8-811e-58d762d2f275)
+
+![added quiz success](https://github.com/lalitvarshney98/ExamHub/assets/70005334/3a1279b6-5d32-4412-b812-e801fc7f8568)
+
+![after add cate](https://github.com/lalitvarshney98/ExamHub/assets/70005334/9a493e6d-518b-42b4-aa6f-e298b28a8dba)
 
 
 ### Adding Questions to a Quiz
@@ -143,11 +125,11 @@ This software was developed using
   - Repeat this process to add further questions
 - Questions can be updated after adding by clicking on the ‘*Update*’ button within the ‘*Questions*’ *Page*
 
-![](aq1.jpeg)
-![](aq2.jpeg)
-![](aq3.jpeg)
-![](aq4.jpeg)
-![](aq5.jpeg)
+
+![add ques in quiz](https://github.com/lalitvarshney98/ExamHub/assets/70005334/27769a14-5bce-4048-8068-9bb32030891a)
+
+![ques add success](https://github.com/lalitvarshney98/ExamHub/assets/70005334/01a33bf7-563b-4c22-a091-f67388a4c1bf)
+
 
 
 ##
@@ -155,20 +137,15 @@ This software was developed using
 ### Viewing Created Quizzes
 - Click on the ‘*Quizzes*’ button from the menu on the left
 
-![](viewcreate.jpeg)
+![quiz dashboard](https://github.com/lalitvarshney98/ExamHub/assets/70005334/fdfa9172-244c-4897-abe5-c3f4f40b8279)
 
-
-### Updating Quiz Information
-- Click on the ‘*Update*’ button from the row of buttons below the name of a created quiz within the Quizzes Page
-
-![](Aspose.Words.96c9ccab-5ba4-4a7f-8856-f6f612851f78.024.png)![](upda.jpeg)
 
 
 ### Viewing the Result for a Quiz
 - From the “Quizzes” page, click on the “*View Result*” button below the name of the quiz you would like to see the results
 - The results will be shown student-wise in a tabular manner
 
-![](respro.jpeg)
+
 
 
 ## Examinee Profile
@@ -183,7 +160,11 @@ This software was developed using
   - Email
   - Phone Number
 - All entries are validated and appropriate errors will be given
-- Accounts are authenticated using JWT Authentication![](Aspose.Words.96c9ccab-5ba4-4a7f-8856-f6f612851f78.016.png)
+- Accounts are authenticated using JWT Authentication
+
+  ![reg page](https://github.com/lalitvarshney98/ExamHub/assets/70005334/d9168456-336b-4397-98d1-3efac0f946bb)
+
+  ![reg success](https://github.com/lalitvarshney98/ExamHub/assets/70005334/ea1b3346-aa65-46c9-bbef-0bd58d5258d2)
 
 
 ### Login Page
@@ -194,43 +175,37 @@ This software was developed using
 - All entries are validated and appropriate errors will be given
 - Accounts are authenticated using JWT Authentication
 
+  ![examinee login](https://github.com/lalitvarshney98/ExamHub/assets/70005334/5837841b-8d09-4e44-8230-5ac1bfeaac07)
+
+
 ### View All Quizzes
 - Click on the ‘*All Quizzes*’ button from the menu on the left
 
-![](vall.jpeg)
-
-
-### View Quizzes of a Particular Subject
-- Click on the subject name button from the menu on the left. For example, if you would like to view the quizzes available in the subject, “*MAT\_3003 complex*”, click on the button, “*MAT\_3003 complex*”
-
-![](Aspose.Words.96c9ccab-5ba4-4a7f-8856-f6f612851f78.025.png)
+![examinee dashboard](https://github.com/lalitvarshney98/ExamHub/assets/70005334/a11f7a82-6905-4a39-8ebf-7d18919844f4)
 
 
 ### Starting a Quiz
 - Click on the “*Start*” button below the quiz name
 - Instructions for attempting the quiz will be shown on starting the quiz
 - To start answering questions, click on the “*Start Quiz*” button from the instructions page
-
-![](s4.jpeg)
-
 - A confirmation pop-up will be displayed to start the quiz.
 - Click on the “*Start*” button to start. Else, click on the “*No*” button
-
-![](s1.jpeg)
-
 - It is to be noted that the quiz will Auto Submit when the timer on the right side of the screen reaches 0
-
-
-![](s2.jpeg)
-
 - The quiz will auto submit will submit automatically if tab is switched to ensure ethical attempts of the quiz
 - On submission, the results of the quiz are shown as a summary
 
-![](s3.jpeg)
+![instruction before start quiz](https://github.com/lalitvarshney98/ExamHub/assets/70005334/4406a97a-2469-48d0-89e2-1adfe07c89b6)
+
+
+![start quiz with timer](https://github.com/lalitvarshney98/ExamHub/assets/70005334/1cd1fa86-fcea-49f3-8eea-7bff59584a05)
+
+![see quiz ques](https://github.com/lalitvarshney98/ExamHub/assets/70005334/167579d7-1be4-4045-adaa-93c46f2c79c8)
+
 
 ### Viewing the Performance Result for a Quiz
 - Users: Students
 - How to Get Here: From the “Available Quizzes” page, click on the “*See Results*” button below the name of the quiz you would like to see the results for
 
-![](Aspose.Words.96c9ccab-5ba4-4a7f-8856-f6f612851f78.026.png)
+![quiz result](https://github.com/lalitvarshney98/ExamHub/assets/70005334/b99242b9-d7a3-4b64-840c-597b21e0c699)
+
 
